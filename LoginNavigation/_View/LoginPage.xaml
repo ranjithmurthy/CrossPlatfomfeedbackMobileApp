@@ -7,11 +7,17 @@
 		<StackLayout VerticalOptions="StartAndExpand"  HorizontalOptions="Center">
       <Label Text="Login for a Restaurant FeedBack Account" FontSize="20" HorizontalTextAlignment="Center"/>
 			<Label Text="Username" />
-			<Entry x:Name="usernameEntry" Placeholder="username" />
+      <Entry Text="{Binding UserName}" Placeholder="username" />
+
+      <!-- <Entry x:Name="usernameEntry" Placeholder="username" /> -->
+			
 			<Label Text="Password" />
-			<Entry x:Name="passwordEntry" IsPassword="true" />
+			<Entry Text="{Binding Password}" IsPassword="true" />
+
+      <!-- <Entry x:Name="passwordEntry" IsPassword="true" />-->
 			<Button Text="Login" Clicked="OnLoginButtonClicked" />
-			<Label x:Name="messageLabel" />
+      <Label Text="{Binding DisplayMessage}" />
+    
 		</StackLayout>
 	</ContentPage.Content>
 </ContentPage>
