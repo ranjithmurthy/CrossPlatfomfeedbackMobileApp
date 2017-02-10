@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace LoginNavigation.RestClientForApp
 {
-    class UserClientRestService : IDisposable
+    class UserClientRestService: IDisposable
     {
 
         HttpClient httpClient;
@@ -80,8 +80,7 @@ namespace LoginNavigation.RestClientForApp
         //}
 
 
-
-
+     
         public async Task<bool> SignUpForUser(RegisterModel userDetails)
         {
            
@@ -90,7 +89,7 @@ namespace LoginNavigation.RestClientForApp
             var json = JsonConvert.SerializeObject(userDetails);
             var content = new StringContent(json, Encoding.UTF8, "application/json");
 
-            HttpResponseMessage response =  await httpClient.PostAsync(uri, content);
+            var response =  await httpClient.PostAsync(uri, content);
 
             // read response object properly 
             //TODO: Ranjith Not returning from client properly 

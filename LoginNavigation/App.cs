@@ -11,7 +11,7 @@ namespace LoginNavigation
 			if (!IsUserLoggedIn) {
 				MainPage = new NavigationPage (new LoginPage ());
 			} else {
-				MainPage = new NavigationPage (new LoginNavigation.MainPage ());
+				MainPage = new MainPage ();
 			}
 		}
 

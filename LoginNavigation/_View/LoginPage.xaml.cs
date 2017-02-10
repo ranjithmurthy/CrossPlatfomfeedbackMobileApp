@@ -5,6 +5,8 @@ using Xamarin.Forms;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using LoginNavigation.RestClientForApp;
+using Plugin.RestClient;
+using LoginNavigation.Model;
 
 namespace LoginNavigation
 {
@@ -24,7 +26,7 @@ namespace LoginNavigation
 
 		async void OnLoginButtonClicked (object sender, EventArgs e)
 		{
-            using (UserClientRestService UserRest = new UserClientRestService())
+            using (RestClient<RegisterModel> userClient = new RestClient<RegisterModel>())
             {
                 var user = new User
                 {
@@ -32,8 +34,8 @@ namespace LoginNavigation
                     Password = _loginPage.Password
                 };
 
-                var isValid = UserRest.CheckUserIsCorrectOrNot(user);
-                if (isValid)
+                var isValid = await userClient.GetCheckUserIsCorrectOrNot(user);
+                if (isValid.IsSuccessStatusCode)
                 {
                     App.IsUserLoggedIn = true;
                     Navigation.InsertPageBefore(new MainPage(), this);
@@ -48,34 +50,6 @@ namespace LoginNavigation
             }
         }
 
-        async Task<bool> AreCredentialsCorrect(User user)
-        {
-            //  return user.Username == Constants.Username && user.Password == Constants.Password;
-
-            //http://localhost:56431/api/Users/ranasdjith.murthy@gmail.com/password
-
-            HttpClient client = new HttpClient();
-
-           // http://localhost:56431/Account/Login?ReturnUrl=%2F
-
-            var data = string.Format("http://localhost:56431/api/Users/" + user.Username + "/" + user.Password);
-
-            var uri = new Uri(string.Format("http://localhost:56431/api/Users/" + user.Username + "/" + user.Password));
-            HttpResponseMessage response; ;
-            client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-            response = await client.GetAsync(uri);
-            if (response.StatusCode == System.Net.HttpStatusCode.Accepted)
-            {
-                return true;
-
-
-            }
-            else
-            {
-                return false;
-
-
-            }
-        }
+       
     }
 }
