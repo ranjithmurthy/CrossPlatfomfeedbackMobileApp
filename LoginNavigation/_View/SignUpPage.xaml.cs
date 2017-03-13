@@ -1,17 +1,14 @@
-﻿using LoginNavigation.RestClientForApp;
-using System;
-using System.Linq;
-using Xamarin.Forms;
+﻿using System;
 using LoginNavigation.Model;
 using LoginNavigation._ViewModels;
-using Plugin.RestClient;
 using ServiceLibrary;
+using Xamarin.Forms;
 
 namespace LoginNavigation
 {
     public partial class SignUpPage : ContentPage
     {
-        private RegisterUserviewModel _SignUpPage;
+        private readonly RegisterUserviewModel _SignUpPage;
 
         public SignUpPage()
         {
@@ -21,13 +18,13 @@ namespace LoginNavigation
 
         private async void OnSignUpButtonClicked(object sender, EventArgs e)
         {
-            RegisterModel userDetails = new RegisterModel()
+            var userDetails = new RegisterModel
             {
                 FirstName = _SignUpPage.FirstName,
                 LastName = _SignUpPage.LastName,
                 Email = _SignUpPage.UserName,
                 Password = _SignUpPage.Password,
-                ConfirmPassword = _SignUpPage.ConfirmPassword,
+                ConfirmPassword = _SignUpPage.ConfirmPassword
             };
 
             if (!userDetails.IsValid())
@@ -39,20 +36,18 @@ namespace LoginNavigation
 
             if (userDetails.ConfirmPassword == userDetails.Password)
             {
-                LoginViewModel model = new LoginViewModel()
+                var model = new LoginViewModel
                 {
                     Email = userDetails.Email,
                     Password = userDetails.Password,
-                    Username = userDetails.FirstName,
+                    Username = userDetails.FirstName
                 };
 
-                ServiceWrapper serviceWrapper = new ServiceWrapper();
+                var serviceWrapper = new ServiceWrapper();
 
-                string authenticationResult = await serviceWrapper.RegisterUser(model);
+                var authenticationResult = await serviceWrapper.RegisterUser(model);
 
                 _SignUpPage.DisplayMessage = authenticationResult;
-
-               
             }
             else
             {
@@ -60,9 +55,9 @@ namespace LoginNavigation
             }
         }
 
-        //    bool AreDetailsValid(RegisterModel userDetails)
-        //{
         //        using (UserClientRestService UserRest = new UserClientRestService())
+        //{
+        //    bool AreDetailsValid(RegisterModel userDetails)
         //        {
         //            var status = UserRest.SignUpForUser(userDetails);
 

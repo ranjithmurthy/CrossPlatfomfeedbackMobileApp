@@ -1,10 +1,7 @@
-﻿using System;
-
-namespace ExternalProviderAuthentication
+﻿namespace ExternalProviderAuthentication
 {
-	public class RegisterExternalBindingModel
-	{
-		public string UserName { get; set; }
-	}
+    public class RegisterExternalBindingModel
+    {
+        public string UserName { get; set; }
+    }
 }
-

@@ -1,50 +1,44 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Threading.Tasks;
-using System.Net;
 using System.IO;
+using System.Net;
 using System.Security;
-using Newtonsoft.Json;
 using System.Text;
-using System.Net.Http;
-
+using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace ExternalProviderAuthentication
 {
     public class AuthenticationServices
     {
-        private readonly string _baseUri;
-
         public AuthenticationServices(string baseUri)
         {
-            _baseUri = baseUri;
+            BaseUri = baseUri;
         }
 
-        public string BaseUri { get { return _baseUri; } }
+        public string BaseUri { get; }
 
         public string AccessToken { get; set; }
 
         public async Task<IEnumerable<ExternalLoginViewModel>> GetExternalLoginProviders()
         {
-            string uri = String.Format("{0}/api/Account/ExternalLogins?returnUrl=%2F&generateState=true", _baseUri);
+            var uri = string.Format("{0}/api/Account/ExternalLogins?returnUrl=%2F&generateState=true", BaseUri);
 
-            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(uri);
+            var request = (HttpWebRequest) WebRequest.Create(uri);
             request.Method = "GET";
-
-
 
             try
             {
                 WebResponse response = await request.GetResponseAsync();
-                HttpWebResponse httpResponse = (HttpWebResponse)response;
+                var httpResponse = (HttpWebResponse) response;
                 string result;
 
-                using (Stream responseStream = httpResponse.GetResponseStream())
+                using (var responseStream = httpResponse.GetResponseStream())
                 {
                     result = new StreamReader(responseStream).ReadToEnd();
                 }
 
-                List<ExternalLoginViewModel> models = JsonConvert.DeserializeObject<List<ExternalLoginViewModel>>(result);
+                var models = JsonConvert.DeserializeObject<List<ExternalLoginViewModel>>(result);
                 return models;
             }
             catch (SecurityException)
@@ -59,24 +53,24 @@ namespace ExternalProviderAuthentication
 
         public async Task RegisterExternal(string username)
         {
-            string uri = String.Format("{0}/api/Account/RegisterExternal", BaseUri);
+            var uri = string.Format("{0}/api/Account/RegisterExternal", BaseUri);
 
-            RegisterExternalBindingModel model = new RegisterExternalBindingModel
+            var model = new RegisterExternalBindingModel
             {
                 UserName = username
             };
-            
-            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(uri);
+
+            var request = (HttpWebRequest) WebRequest.Create(uri);
             request.Method = "GET";
             request.ContentType = "application/json";
             request.Accept = "application/json";
-           
-           // request.Headers.Add("Authorization", String.Format("Bearer {0}", AccessToken));
+
+            // request.Headers.Add("Authorization", String.Format("Bearer {0}", AccessToken));
             request.Method = "POST";
 
-            string postJson = JsonConvert.SerializeObject(model);
-            byte[] bytes = Encoding.UTF8.GetBytes(postJson);
-            using (Stream requestStream = await request.GetRequestStreamAsync())
+            var postJson = JsonConvert.SerializeObject(model);
+            var bytes = Encoding.UTF8.GetBytes(postJson);
+            using (var requestStream = await request.GetRequestStreamAsync())
             {
                 requestStream.Write(bytes, 0, bytes.Length);
             }
@@ -84,13 +78,12 @@ namespace ExternalProviderAuthentication
             try
             {
                 WebResponse response = await request.GetResponseAsync();
-                HttpWebResponse httpResponse = (HttpWebResponse)response;
+                var httpResponse = (HttpWebResponse) response;
                 string result;
 
-                using (Stream responseStream = httpResponse.GetResponseStream())
+                using (var responseStream = httpResponse.GetResponseStream())
                 {
                     result = new StreamReader(responseStream).ReadToEnd();
-
                 }
             }
             catch (SecurityException)
@@ -104,4 +97,3 @@ namespace ExternalProviderAuthentication
         }
     }
 }
-

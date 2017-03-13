@@ -1,14 +1,11 @@
-﻿using System;
-
-namespace ExternalProviderAuthentication
+﻿namespace ExternalProviderAuthentication
 {
-	public class ExternalLoginViewModel
-	{
-		public string Name { get; set; }
+    public class ExternalLoginViewModel
+    {
+        public string Name { get; set; }
 
-		public string Url { get; set; }
+        public string Url { get; set; }
 
-		public string State { get; set; }
-	}
+        public string State { get; set; }
+    }
 }
-

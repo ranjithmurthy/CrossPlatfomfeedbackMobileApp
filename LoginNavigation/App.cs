@@ -2,12 +2,10 @@
 
 namespace LoginNavigation
 {
-	public class App : Application
-	{
-		public static bool IsUserLoggedIn { get; set; }
-
-		public App ()
-		{
+    public class App : Application
+    {
+        public App()
+        {
             //if (!IsUserLoggedIn) {
             //	MainPage = new NavigationPage (new LoginPage ());
             //} else {
@@ -17,20 +15,21 @@ namespace LoginNavigation
             MainPage = new MainPage();
         }
 
-		protected override void OnStart ()
-		{
-			// Handle when your app starts
-		}
+        public static bool IsUserLoggedIn { get; set; }
 
-		protected override void OnSleep ()
-		{
-			// Handle when your app sleeps
-		}
+        protected override void OnStart()
+        {
+            // Handle when your app starts
+        }
 
-		protected override void OnResume ()
-		{
-			// Handle when your app resumes
-		}
-	}
+        protected override void OnSleep()
+        {
+            // Handle when your app sleeps
+        }
+
+        protected override void OnResume()
+        {
+            // Handle when your app resumes
+        }
+    }
 }
-

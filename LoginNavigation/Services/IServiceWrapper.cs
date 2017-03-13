@@ -8,11 +8,13 @@ namespace ServiceLibrary
         Task<bool> ValidateUser(LoginViewModel loginModel);
 
         Task<string> RegisterUser(LoginViewModel loginModel);
-        
-       // Task<string> GetAllSurvery();
+
+        // Task<string> GetAllSurvery();
 
         Task<T> GetJsonData<T>() where T : new();
 
         Task<bool> SubmitUserFeedback(UserFeedbackViewModel userFeedback);
+
+        //Task<T> GetJsonSurveyData<T>(int id);
     }
 }

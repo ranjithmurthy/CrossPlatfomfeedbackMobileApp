@@ -49,6 +49,7 @@
     <Compile Include="_Model\User.cs" />
     <Compile Include="_Model\Constants.cs" />
     <Compile Include="_Model\veggieModel.cs" />
+    <Compile Include="_ViewModels\ListviewBind.cs" />
     <Compile Include="_ViewModels\LoginUserViewModel.cs" />
     <Compile Include="_Model\RegisterModel.cs" />
     <Compile Include="_ViewModels\RegisterUserviewModel.cs" />

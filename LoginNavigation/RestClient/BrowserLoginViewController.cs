@@ -36,13 +36,12 @@
 //				ParseUrlForAccessToken(_webBrowser.Request.Url.ToString());
 //			};
 //		}
-			
+
 //		private async void ParseUrlForAccessToken(string url)
 //		{
 //			const string fieldName = "access_token=";
 //			int accessTokenIndex = url.IndexOf(fieldName, StringComparison.Ordinal);
 //			if (accessTokenIndex > -1) {
-
 //				int ampersandTokenIndex = url.IndexOf("&", accessTokenIndex, StringComparison.Ordinal);
 //				string tokenField = url.Substring (accessTokenIndex, ampersandTokenIndex - accessTokenIndex);
 //				string token = tokenField.Substring (fieldName.Length);

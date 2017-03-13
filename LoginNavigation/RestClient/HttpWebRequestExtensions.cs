@@ -33,7 +33,7 @@ namespace ExternalProviderAuthentication
 
             return tcs.Task;
         }
-        
+
         public static Task<HttpWebResponse> GetResponseAsync(this HttpWebRequest request)
         {
             var tcs = new TaskCompletionSource<HttpWebResponse>();
@@ -44,7 +44,7 @@ namespace ExternalProviderAuthentication
                 {
                     try
                     {
-                        var response = (HttpWebResponse)request.EndGetResponse(iar);
+                        var response = (HttpWebResponse) request.EndGetResponse(iar);
                         tcs.SetResult(response);
                     }
                     catch (Exception exc)
@@ -61,6 +61,4 @@ namespace ExternalProviderAuthentication
             return tcs.Task;
         }
     }
-
-
 }
