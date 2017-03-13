@@ -8,12 +8,14 @@ namespace LoginNavigation
 
 		public App ()
 		{
-			if (!IsUserLoggedIn) {
-				MainPage = new NavigationPage (new LoginPage ());
-			} else {
-				MainPage = new MainPage ();
-			}
-		}
+            //if (!IsUserLoggedIn) {
+            //	MainPage = new NavigationPage (new LoginPage ());
+            //} else {
+            //	MainPage = new MainPage ();
+            //}
+
+            MainPage = new MainPage();
+        }
 
 		protected override void OnStart ()
 		{

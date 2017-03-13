@@ -23,6 +23,7 @@ C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\bin\Debug\Xamarin.GooglePlaySe
 C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\bin\Debug\Xamarin.GooglePlayServices.Base.dll
 C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\bin\Debug\Xamarin.GooglePlayServices.Basement.dll
 C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\bin\Debug\FeedbackApp.pdb
+C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\bin\Debug\FeedbackApp.dll.config
 C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\bin\Debug\FormsViewGroup.pdb
 C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\bin\Debug\FormsViewGroup.dll.mdb
 C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\bin\Debug\Newtonsoft.Json.xml
@@ -57,6 +58,7 @@ C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\bin\Debug\System.Core.dll.mdb
 C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\bin\Debug\System.dll.mdb
 C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\bin\Debug\System.Net.Http.dll.mdb
 C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\bin\Debug\System.Runtime.Serialization.dll.mdb
+C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\bin\Debug\System.Runtime.Serialization.Primitives.dll.mdb
 C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\bin\Debug\System.ServiceModel.Internals.dll.mdb
 C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\bin\Debug\System.Xml.dll.mdb
 C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\bin\Debug\System.Xml.Linq.dll.mdb
@@ -73,6 +75,7 @@ C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\obj\Debug\android\assets\Syste
 C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\obj\Debug\android\assets\System.dll.mdb
 C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\obj\Debug\android\assets\System.Net.Http.dll.mdb
 C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\obj\Debug\android\assets\System.Runtime.Serialization.Primitives.dll.mdb
 C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\obj\Debug\android\assets\System.Xml.Linq.dll.mdb

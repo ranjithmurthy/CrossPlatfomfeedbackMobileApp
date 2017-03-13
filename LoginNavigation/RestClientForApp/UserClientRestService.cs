@@ -11,50 +11,43 @@ using System.Threading.Tasks;
 
 namespace LoginNavigation.RestClientForApp
 {
-    class UserClientRestService: IDisposable
+    internal class UserClientRestService : IDisposable
     {
-
-        HttpClient httpClient;
+        private HttpClient httpClient;
 
         public UserClientRestService()
         {
             httpClient = new HttpClient();
             httpClient.MaxResponseContentBufferSize = 256000;
-
         }
-
 
         //http://192.168.178.29:56431/api/Users/ranjith.murthy@gmail.com/password
         private const string WebServiceUrl = " http://192.168.178.54:56431/api/Users/";
 
+        //public bool CheckUserIsCorrectOrNot(User user)
+        //{
+        //    using (var client = new HttpClient())
+        //    {
+        //        // client.BaseAddress = new Uri("http://192.168.178.29:56431/api/Users/"+user.Email+"/");
+        //        //http://192.168.178.29:56431/api/Users/ranjith.murthy@gmail.com/add
+        //        //HTTP GET
 
-        public bool CheckUserIsCorrectOrNot(User user)
-        {
-            using (var client = new HttpClient())
-            {
-                // client.BaseAddress = new Uri("http://192.168.178.29:56431/api/Users/"+user.Email+"/");
-                //http://192.168.178.29:56431/api/Users/ranjith.murthy@gmail.com/add
-                //HTTP GET
+        //        var simple = WebServiceUrl + user.Username + "/" + user.Password;
 
-                var simple = WebServiceUrl + user.Username + "/" + user.Password;
+        //        //var data= client.
+        //        var responseTask = client.GetAsync(simple);
+        //        // responseTask.Wait();
 
-                //var data= client.
-                var responseTask = client.GetAsync(simple);
-                // responseTask.Wait();
+        //        var result = responseTask.Result;
+        //        if (result.IsSuccessStatusCode)
+        //        {
+        //            return true;
+        //        }
+        //        else
+        //            return false;
 
-                var result = responseTask.Result;
-                if (result.IsSuccessStatusCode)
-                {
-
-
-                    return true;
-                }
-                else
-                    return false;
-
-            }
-        }
-
+        //    }
+        //}
 
         //public bool SignUpForUser(RegisterViewModel userDetails, int i)
         //{
@@ -79,31 +72,28 @@ namespace LoginNavigation.RestClientForApp
         //    return true;
         //}
 
-
-     
         public async Task<bool> SignUpForUser(RegisterModel userDetails)
         {
-           
-           
             var uri = new Uri(WebServiceUrl);
             var json = JsonConvert.SerializeObject(userDetails);
             var content = new StringContent(json, Encoding.UTF8, "application/json");
 
-            var response =  await httpClient.PostAsync(uri, content);
+            var response = await httpClient.PostAsync(uri, content);
 
-            // read response object properly 
-            //TODO: Ranjith Not returning from client properly 
+            // read response object properly
+            //TODO: Ranjith Not returning from client properly
             if (response.IsSuccessStatusCode)
             {
-                  return response.IsSuccessStatusCode;
+                return response.IsSuccessStatusCode;
             }
-            else {
+            else
+            {
                 return false;
             }
-          
         }
 
         #region IDisposable Support
+
         private bool disposedValue = false; // To detect redundant calls
 
         protected virtual void Dispose(bool disposing)
@@ -136,6 +126,7 @@ namespace LoginNavigation.RestClientForApp
             // TODO: uncomment the following line if the finalizer is overridden above.
             // GC.SuppressFinalize(this);
         }
-        #endregion
+
+        #endregion IDisposable Support
     }
 }

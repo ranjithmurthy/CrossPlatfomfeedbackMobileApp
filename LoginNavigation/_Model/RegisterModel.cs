@@ -1,18 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LoginNavigation.Model
+﻿namespace LoginNavigation.Model
 {
-   
-
     public class RegisterModel
     {
         //[Required]
         //[EmailAddress]
-       // [Display(Name = "Email")]
+        // [Display(Name = "Email")]
         public string Email { get; set; }
 
         //[Required]
@@ -33,5 +25,12 @@ namespace LoginNavigation.Model
         //[Display(Name = "Confirm password")]
         //[Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
+
+        public bool IsValid()
+        {
+            return !string.IsNullOrWhiteSpace(Email) && !string.IsNullOrWhiteSpace(Password)
+                   && !string.IsNullOrWhiteSpace(FirstName)
+                   && !string.IsNullOrWhiteSpace(LastName);
+        }
     }
 }

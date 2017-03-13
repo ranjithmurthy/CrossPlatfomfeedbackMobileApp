@@ -1,41 +1,46 @@
-﻿using LoginNavigation.ViewModels;
-using System;
-using System.Threading.Tasks;
-using Xamarin.Forms;
-using System.Net.Http;
-using System.Net.Http.Headers;
-using LoginNavigation.RestClientForApp;
-using Plugin.RestClient;
+﻿using System;
 using LoginNavigation.Model;
+using LoginNavigation.ViewModels;
+using Plugin.RestClient;
+using ServiceLibrary;
+using Xamarin.Forms;
 
 namespace LoginNavigation
 {
-	public partial class LoginPage : ContentPage
-	{
-        LoginUserViewModel _loginPage;
-        public LoginPage ()
-		{
-			InitializeComponent();
-            BindingContext = _loginPage= new LoginUserViewModel();
+    public partial class LoginPage : ContentPage
+    {
+        private readonly LoginUserViewModel _loginPage;
+
+        public LoginPage()
+        {
+            InitializeComponent();
+            BindingContext = _loginPage = new LoginUserViewModel();
         }
 
-		async void OnSignUpButtonClicked (object sender, EventArgs e)
-		{
-			await Navigation.PushAsync (new SignUpPage ());
-		}
+        private async void OnSignUpButtonClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new SignUpPage());
+        }
 
-		async void OnLoginButtonClicked (object sender, EventArgs e)
-		{
-            using (RestClient<RegisterModel> userClient = new RestClient<RegisterModel>())
+        private async void OnLoginButtonClicked(object sender, EventArgs e)
+        {
+            using (var userClient = new RestClient<RegisterModel>())
             {
-                var user = new User
+                var model = new LoginViewModel
                 {
                     Username = _loginPage.UserName,
+                    Email = _loginPage.UserName,
                     Password = _loginPage.Password
                 };
 
-                var isValid = await userClient.GetCheckUserIsCorrectOrNot(user);
-                if (isValid.IsSuccessStatusCode)
+                if (!model.IsValid())
+                    return;
+
+                var serviceWrapper = new ServiceWrapper();
+
+                var authenticationResult = await serviceWrapper.ValidateUser(model);
+
+                if (authenticationResult)
                 {
                     App.IsUserLoggedIn = true;
                     Navigation.InsertPageBefore(new MainPage(), this);
@@ -49,7 +54,5 @@ namespace LoginNavigation
                 }
             }
         }
-
-       
     }
 }

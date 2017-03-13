@@ -5,15 +5,13 @@ using Xamarin.Forms;
 using LoginNavigation.Model;
 using LoginNavigation._ViewModels;
 using Plugin.RestClient;
-
+using ServiceLibrary;
 
 namespace LoginNavigation
 {
     public partial class SignUpPage : ContentPage
     {
-        RegisterUserviewModel _SignUpPage;
-
-
+        private RegisterUserviewModel _SignUpPage;
 
         public SignUpPage()
         {
@@ -21,7 +19,7 @@ namespace LoginNavigation
             BindingContext = _SignUpPage = new RegisterUserviewModel();
         }
 
-        async void OnSignUpButtonClicked(object sender, EventArgs e)
+        private async void OnSignUpButtonClicked(object sender, EventArgs e)
         {
             RegisterModel userDetails = new RegisterModel()
             {
@@ -32,43 +30,40 @@ namespace LoginNavigation
                 ConfirmPassword = _SignUpPage.ConfirmPassword,
             };
 
+            if (!userDetails.IsValid())
+            {
+                _SignUpPage.DisplayMessage = "please fill in your details";
+                //lblRegisterFormFeedback.TextColor = UIColor.Red;
+                return;
+            }
+
             if (userDetails.ConfirmPassword == userDetails.Password)
             {
-                RestClient<RegisterModel> userClient = new RestClient<RegisterModel>();
-
-                //HTTP POST
-                var postTask = await userClient.PostAsync(userDetails);
-                
-                if (postTask.IsSuccessStatusCode)
+                LoginViewModel model = new LoginViewModel()
                 {
-                    var rootPage = Navigation.NavigationStack.FirstOrDefault();
-                    if (rootPage != null)
-                    {
-                        App.IsUserLoggedIn = true;
-                        Navigation.InsertPageBefore(new MainPage(), Navigation.NavigationStack.First());
-                        await Navigation.PopToRootAsync();
-                    }
-                }
-                else
-                {
-                    _SignUpPage.DisplayMessage = "Sign up failed";
-                }
+                    Email = userDetails.Email,
+                    Password = userDetails.Password,
+                    Username = userDetails.FirstName,
+                };
 
+                ServiceWrapper serviceWrapper = new ServiceWrapper();
+
+                string authenticationResult = await serviceWrapper.RegisterUser(model);
+
+                _SignUpPage.DisplayMessage = authenticationResult;
+
+               
             }
             else
             {
-
-
                 _SignUpPage.DisplayMessage = "CheckData";
             }
         }
 
         //    bool AreDetailsValid(RegisterModel userDetails)
         //{
-
         //        using (UserClientRestService UserRest = new UserClientRestService())
         //        {
-
         //            var status = UserRest.SignUpForUser(userDetails);
 
         //            return status.Result;
