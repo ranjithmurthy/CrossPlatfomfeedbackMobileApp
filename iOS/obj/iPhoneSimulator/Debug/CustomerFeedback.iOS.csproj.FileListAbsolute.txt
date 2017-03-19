@@ -11,7 +11,6 @@ C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\bin\iPhoneSimulator\Debug\Xamari
 C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\bin\iPhoneSimulator\Debug\System.Net.Http.Primitives.dll
 C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\bin\iPhoneSimulator\Debug\FeedbackApp.pdb
 C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\bin\iPhoneSimulator\Debug\FeedbackApp.dll.config
-C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\bin\iPhoneSimulator\Debug\FeedbackApp.dll.mdb
 C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.xml
 C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\bin\iPhoneSimulator\Debug\RestSharp.xml
 C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.pdb

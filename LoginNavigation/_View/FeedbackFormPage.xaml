@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:XamarinFormsBindablePicker.Controls;assembly=FeedbackApp"
+             xmlns:local="clr-namespace:LoginNavigation._View;assembly=FeedbackApp"
+             x:Class="LoginNavigation._View.FeedbackFormPage"
+             Title="Feedback Form">
+  <ContentPage.Content>
+    <StackLayout VerticalOptions="Center"
+                 HorizontalOptions="Center">
+      <StackLayout Margin="50">
+        <StackLayout Padding="1">
+          <Label Text="Description:" />
+          <Label Text="{Binding Path=Description}"
+                 FontSize="14"
+                 VerticalTextAlignment="Center"
+                 HorizontalOptions="Fill" />
+        </StackLayout>
+        <ListView x:Name="PersonList"
+                  ItemsSource="{Binding QuestionHolders}">
+          <ListView.ItemTemplate >
+            <DataTemplate >
+              <ViewCell>
+                <StackLayout>
+                  <StackLayout Orientation="Vertical">
+                    <StackLayout Orientation="Horizontal">
+                      <Label Text="{Binding Path=Question}"
+                             FontSize="14"
+                             VerticalTextAlignment="Center"
+                             HorizontalOptions="Fill" />
+                  <controls:BindablePicker ItemsSource="{Binding Path=BindingContext.PickerItems,
+                                          Source={x:Reference PersonList} }"
+                                               SelectedItem="{Binding AnswerText,  Mode=TwoWay}"
+                                     HorizontalOptions="FillAndExpand" />
+                    </StackLayout>
+                  </StackLayout>
+                </StackLayout>
+              </ViewCell>
+            </DataTemplate>
+          </ListView.ItemTemplate>
+          <ListView.Footer>
+            <StackLayout>
+              <Label Text="UserFeedback/Suggestion:"
+                     FontSize="14" />
+              <StackLayout BackgroundColor="Black"
+                           Padding="1">
+                <Editor Text="{Binding UserFeedbackText}"
+                        FontSize="14" >
+                  <Editor.BackgroundColor>
+                    
+                    <OnPlatform x:TypeArguments="Color"
+                                iOS="#a4eaff"
+                                Android="#2c3e50"
+                                WinPhone="#2c3e50" />
+                  </Editor.BackgroundColor>
+                  
+                  
+                  
+                </Editor>
+                        
+                       
+               
+              </StackLayout>
+              <Button Text="Submit"
+                      Clicked="OnSubmitButtonClickedAsync" />
+            </StackLayout>
+          </ListView.Footer>
+        </ListView>
+      </StackLayout>
+      <Label Text="Copyright Feedback.com" />
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage>

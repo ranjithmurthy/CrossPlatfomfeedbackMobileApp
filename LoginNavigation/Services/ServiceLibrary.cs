@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 using LoginNavigation;
 using Newtonsoft.Json;
 
@@ -11,9 +14,9 @@ namespace ServiceLibrary
     {
         //http://192.168.0.8:56431/api/users
 
-        private const string WebServiceUrl = "http://192.168.0.15:56431/api/";
+        //private const string WebServiceUrl = "http://192.168.0.15:56431/api/";
 
-        //  private const string WebServiceUrl = "http://192.168.178.29:56431/api/";
+          private const string WebServiceUrl = "http://192.168.178.29:56431/api/";
         // 192.168.178.29
         // private const string WebServiceUrl = "http://192.168.0.8:56431/api/";
         public async Task<bool> ValidateUser(LoginViewModel loginModel)
@@ -56,19 +59,41 @@ namespace ServiceLibrary
             }
         }
 
-        //public async Task<string> GetAllSurvery()
-        //{
-        //    //get all survery just invoke Survery index method
-        //    return "invalid_model";
-        //}
-
-        //"/RestUserFeedBack"
+      
 
         public async Task<bool> SubmitUserFeedback(UserFeedbackViewModel userFeedback)
         {
+
+            //api/RestUserFeedBack/SubmitFeedback
+            using (HttpClient client = new HttpClient())
+            {
+                Uri uri = new Uri(WebServiceUrl + "RestUserFeedBack/SubmitFeedback");
+
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+
+
+
+                string json = JsonConvert.SerializeObject(userFeedback);
+
+                var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+                var postResponse = await client.PostAsync(uri, content);
+
+                if (postResponse.IsSuccessStatusCode)
+                    return true;
+                else 
+                     return false;
+            }
+
+
+
             //Submit one userfeedbackviewmodel
             return true;
         }
+
+
+
 
         public async Task<T> GetJsonData<T>() where T : new()
         {
@@ -95,6 +120,8 @@ namespace ServiceLibrary
                 return !string.IsNullOrEmpty(json_data) ? JsonConvert.DeserializeObject<T>(json_data) : new T();
             }
         }
+
+
 
         public async Task<T> GetJsonSurveyData<T>(int id) where T : new()
         {

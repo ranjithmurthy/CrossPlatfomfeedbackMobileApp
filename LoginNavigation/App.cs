@@ -1,4 +1,6 @@
-﻿using Xamarin.Forms;
+﻿using LoginNavigation._View;
+using Newtonsoft.Json;
+using Xamarin.Forms;
 
 namespace LoginNavigation
 {
@@ -6,13 +8,18 @@ namespace LoginNavigation
     {
         public App()
         {
-            //if (!IsUserLoggedIn) {
-            //	MainPage = new NavigationPage (new LoginPage ());
-            //} else {
-            //	MainPage = new MainPage ();
-            //}
+            if (!IsUserLoggedIn)
+            {
+//               
 
-            MainPage = new MainPage();
+                MainPage = new NavigationPage(new LoginPage());
+            }
+            else
+            {
+                MainPage = new MainPage();
+            }
+
+            // MainPage = new MainPage();
         }
 
         public static bool IsUserLoggedIn { get; set; }

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoginNavigation._View.ThanksContent"
+             Title="Feedback Submitted ">
+  <ContentPage.Content>
+    <StackLayout Spacing="0"
+               Padding="10, 40, 10, 40"
+               Orientation="Horizontal"
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="Start">
+    <Label x:Name="start"
+           Font="Large"
+           Text="Thank you for Feedback"
+           HorizontalOptions="FillAndExpand"
+           VerticalOptions="Center"></Label>
+  </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

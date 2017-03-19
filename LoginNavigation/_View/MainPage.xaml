@@ -2,39 +2,29 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LoginNavigation.MainPage"
-             Title="Main Page">
+             Title="Home">
   <ContentPage.ToolbarItems>
     <ToolbarItem Text="Logout"
                  Clicked="OnLogoutButtonClicked" />
   </ContentPage.ToolbarItems>
-  <StackLayout Padding="0,20,0,0">
+ 
+    <StackLayout Padding="0,20,0,0">
     <Button Text="ShowSurvey"
             Clicked="OnShowSurveyButtonClicked"></Button>
-    <Label Text="ListView with a Data Template"
+    <Label x:Name="LabelSurvey"  Text=""
            FontAttributes="Bold"
            HorizontalOptions="Center" />
     <ListView x:Name="listView"
               ItemSelected="OnSelectedItem">
-      <ListView.ItemTemplate>
+      
+        <ListView.ItemTemplate>
         <DataTemplate>
-          <ViewCell>
-            <Grid>
-              <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="0.5*" />
-                <ColumnDefinition Width="0.2*" />
-                <ColumnDefinition Width="0.3*" />
-              </Grid.ColumnDefinitions>
-              <Label Text="{Binding Description }"
-                     FontAttributes="Bold" />
-              <Label Grid.Column="1"
-                     Text="{Binding StartDate}" />
-              <Label Grid.Column="2"
-                     Text="{Binding EndDate }"
-                     HorizontalTextAlignment="End" />
-            </Grid>
-          </ViewCell>
+            <TextCell Text="{Binding Description}"
+                      Detail="{Binding StartDate}"></TextCell>
+            
         </DataTemplate>
       </ListView.ItemTemplate>
     </ListView>
   </StackLayout>
+   
 </ContentPage>

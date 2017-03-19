@@ -8,8 +8,10 @@
                  Clicked="OnSignUpButtonClicked" />
   </ContentPage.ToolbarItems>
   <ContentPage.Content>
-    <StackLayout Padding="25,50">
-      <Label Text="Login for a Restaurant FeedBack Account"
+    <ScrollView>
+      <StackLayout Padding="25,50">
+        
+        <Label Text="Login for a Restaurant FeedBack Account"
              FontSize="20"
              HorizontalTextAlignment="Center" />
       <Label Text="Username" />
@@ -22,7 +24,11 @@
       <!-- <Entry x:Name="passwordEntry" IsPassword="true" />-->
       <Button Text="Login"
               Clicked="OnLoginButtonClicked" />
-      <Label Text="{Binding DisplayMessage}" />
+        
+        <Button Text="Login as Guest"
+                Clicked="OnLoginGuestButtonClicked" />
+        <Label Text="{Binding DisplayMessage}" />
     </StackLayout>
+  </ScrollView>
   </ContentPage.Content>
 </ContentPage>

@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using LoginNavigation._View;
 using LoginNavigation._ViewModels;
+using Newtonsoft.Json;
 using ServiceLibrary;
 using Xamarin.Forms;
 
@@ -8,6 +10,8 @@ namespace LoginNavigation
 {
     public partial class MainPage : ContentPage
     {
+       
+
         public MainPage()
         {
             InitializeComponent();
@@ -22,6 +26,8 @@ namespace LoginNavigation
 
         private async void OnShowSurveyButtonClicked(object sender, EventArgs e)
         {
+            LabelSurvey.Text = "List of Events";
+
             var serviceWrapper = new ServiceWrapper();
             var surveryDatalist = await serviceWrapper.GetJsonData<List<SurveryData>>();
 
@@ -40,8 +46,17 @@ namespace LoginNavigation
 
                 var serviceWrapper = new ServiceWrapper();
 
-                var surveryDatalist =
-                    await serviceWrapper.GetJsonSurveyData<UserFeedbackViewModel>(mySelectedSurvey.SurveyId);
+                var surveryDatalist =await serviceWrapper.GetJsonSurveyData<UserFeedbackViewModel>(mySelectedSurvey.SurveyId);
+
+                // new NavigationPage(new LoginPage());
+
+               // string json_data = Newtonsoft.Json.JsonConvert.SerializeObject(surveryDatalist);
+
+                // json_data = w.DownloadString(url);
+
+                //var surveryObject = JsonConvert.DeserializeObject<UserFeedbackViewModel>(json_data); 
+
+                await Navigation.PushAsync(new FeedbackFormPage(surveryDatalist));
             }
             catch (Exception exception)
             {

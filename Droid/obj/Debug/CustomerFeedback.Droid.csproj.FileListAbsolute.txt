@@ -1,3 +1,4 @@
+C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\obj\Debug\CustomerFeedback.Droid.csprojResolveAssemblyReference.cache
 C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\bin\Debug\LoginNavigation.Droid.dll.config
 C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\bin\Debug\LoginNavigation.Droid.dll
 C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\bin\Debug\LoginNavigation.Droid.pdb
@@ -36,7 +37,6 @@ C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\bin\Debug\Xamarin.Forms.Platfo
 C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\bin\Debug\Xamarin.Forms.Xaml.xml
 C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
-C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\obj\Debug\CustomerFeedback.Droid.csprojResolveAssemblyReference.cache
 C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\obj\Debug\LoginNavigation.Droid.dll
 C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\obj\Debug\LoginNavigation.Droid.pdb
 C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\obj\Debug\android\bin\com.ragi.feedbackMangement.apk
