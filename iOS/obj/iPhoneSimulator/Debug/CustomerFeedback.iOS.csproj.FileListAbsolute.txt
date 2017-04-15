@@ -1,3 +1,5 @@
+C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\bin\iPhoneSimulator\Debug\_View\Flaty.xaml
+C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\bin\iPhoneSimulator\Debug\_View\Flaty.xaml.cs
 C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\bin\iPhoneSimulator\Debug\LoginNavigationiOS.exe.config
 C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\bin\iPhoneSimulator\Debug\LoginNavigationiOS.exe
 C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\bin\iPhoneSimulator\Debug\LoginNavigationiOS.pdb
@@ -74,6 +76,11 @@ C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\optimi
 C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\optimized\Icon-Small-40.png
 C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\optimized\Icon-Small-40@2x.png
 C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\optimized\Icon-Small-40@3x.png
+C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\optimized\fblogin.png
+C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\optimized\icon.png
+C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\optimized\iconEmail.png
+C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\optimized\iconPassword.png
+C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\optimized\iconUsername.png
 C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\optimized\Entitlements.plist
 C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\optimized\
 C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\CustomerFeedback.iOS.csprojResolveAssemblyReference.cache

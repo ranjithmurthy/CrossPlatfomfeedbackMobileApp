@@ -15,9 +15,10 @@
            FontAttributes="Bold"
            HorizontalOptions="Center" />
     <ListView x:Name="listView"
-              ItemSelected="OnSelectedItem">
-      
-        <ListView.ItemTemplate>
+              RowHeight="100"
+              HorizontalOptions="Center"
+              ItemSelected="OnSelectedItem" >
+      <ListView.ItemTemplate>
         <DataTemplate>
             <TextCell Text="{Binding Description}"
                       Detail="{Binding StartDate}"></TextCell>

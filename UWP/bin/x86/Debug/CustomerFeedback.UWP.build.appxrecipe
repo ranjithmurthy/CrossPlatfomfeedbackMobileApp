@@ -421,6 +421,9 @@
     <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\bin\x86\Debug\LoginNavigation.UWP.xr.xml">
       <PackagePath>LoginNavigation.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\background.jpg">
+      <PackagePath>FeedbackApp\background.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>

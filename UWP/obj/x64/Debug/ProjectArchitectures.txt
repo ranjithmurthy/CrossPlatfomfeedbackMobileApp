@@ -1,0 +1,2 @@
+C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\CustomerFeedback.csproj;neutral
+C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\CustomerFeedback.UWP.csproj;x64

@@ -10,12 +10,12 @@ namespace LoginNavigation
         {
             if (!IsUserLoggedIn)
             {
-//               
-
-                MainPage = new NavigationPage(new LoginPage());
+                 MainPage = new NavigationPage(new LoginPage());
+               // MainPage = new NavigationPage(new Flaty());
             }
             else
             {
+               // MainPage = new NavigationPage(new Flaty());
                 MainPage = new MainPage();
             }
 

@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-19T15:07:40.685</Modified>
+      <Modified>2017-04-12T20:26:06.142</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\bin\x86\Debug\LoginNavigation.UWP.exe">
       <PackagePath>entrypoint\LoginNavigation.UWP.exe</PackagePath>
-      <Modified>2017-03-19T15:07:35.973</Modified>
+      <Modified>2017-04-12T20:26:00.197</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ranjith\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -510,7 +510,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\bin\Debug\FeedbackApp.dll">
       <PackagePath>FeedbackApp.dll</PackagePath>
-      <Modified>2017-03-19T14:46:51.831</Modified>
+      <Modified>2017-04-15T23:04:54.975</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\bin\Debug\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -518,7 +518,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\bin\Debug\FeedbackApp.dll.config">
       <PackagePath>FeedbackApp.dll.config</PackagePath>
-      <Modified>2017-03-19T14:46:49.036</Modified>
+      <Modified>2017-04-15T23:04:52.606</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -562,6 +562,10 @@
       <PackagePath>LoginNavigation.UWP.xr.xml</PackagePath>
       <Modified>2017-03-19T13:49:25.324</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\background.jpg">
+      <PackagePath>FeedbackApp\background.jpg</PackagePath>
+      <Modified>2017-03-23T21:51:31.111</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-03-08T00:57:43.256</Modified>
@@ -577,11 +581,11 @@
     <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-19T14:40:29.008</Modified>
+      <Modified>2017-04-12T20:26:05.017</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\bin\x86\Debug\Core\LoginNavigation.UWP.exe">
       <PackagePath>LoginNavigation.UWP.exe</PackagePath>
-      <Modified>2017-03-19T15:07:40.670</Modified>
+      <Modified>2017-04-12T20:26:06.127</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

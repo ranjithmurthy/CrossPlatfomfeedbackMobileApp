@@ -14,9 +14,10 @@ namespace ServiceLibrary
     {
         //http://192.168.0.8:56431/api/users
 
-        //private const string WebServiceUrl = "http://192.168.0.15:56431/api/";
+        //private const string WebServiceUrl = "http://192.168.178.29:56431/api/";
 
-          private const string WebServiceUrl = "http://192.168.178.29:56431/api/";
+        //  http://canteenmanagementfeedback.azurewebsites.net/
+        private const string WebServiceUrl = "http://canteenmanagementfeedback.azurewebsites.net/api/";
         // 192.168.178.29
         // private const string WebServiceUrl = "http://192.168.0.8:56431/api/";
         public async Task<bool> ValidateUser(LoginViewModel loginModel)
@@ -72,9 +73,10 @@ namespace ServiceLibrary
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
 
+                var s = new JsonSerializerSettings { DateFormatHandling = DateFormatHandling.MicrosoftDateFormat };
 
-
-                string json = JsonConvert.SerializeObject(userFeedback);
+            
+                string json = JsonConvert.SerializeObject(userFeedback,s);
 
                 var content = new StringContent(json, Encoding.UTF8, "application/json");
 

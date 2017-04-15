@@ -48,6 +48,9 @@
     <Compile Include="RestClient\RegisterExternalBindingModel.cs" />
     <Compile Include="Services\IServiceWrapper.cs" />
     <Compile Include="Services\ServiceLibrary.cs" />
+    <Compile Include="UIClass\BoolResources.cs" />
+    <Compile Include="UIClass\DoubleResources.cs" />
+    <Compile Include="UIClass\ImagePathResources.cs" />
     <Compile Include="_Model\Country.cs" />
     <Compile Include="_Model\FeedBack.cs" />
     <Compile Include="_Model\ObservableObject.cs" />
@@ -63,6 +66,10 @@
       <DependentUpon>FeedbackFormPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="_ViewModels\FeedbackFormPageViewModel.cs" />
+    <Compile Include="_View\Flaty.xaml.cs">
+      <DependentUpon>Flaty.xaml</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
     <Compile Include="_View\LoginPage.xaml.cs">
       <DependentUpon>LoginPage.xaml</DependentUpon>
     </Compile>
@@ -150,6 +157,16 @@
     <EmbeddedResource Include="_View\ThanksContent.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="_View\Flaty.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
