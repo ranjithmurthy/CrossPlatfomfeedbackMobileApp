@@ -148,24 +148,23 @@
     <Content Include="Entitlements.plist" />
     <Content Include="Info.plist" />
     <BundleResource Include="Resources\fblogin.png" />
-    <BundleResource Include="Resources\Foody1.jpg" />
-    <BundleResource Include="Resources\Foody2.jpg" />
-    <BundleResource Include="Resources\Foody3.jpg" />
-    <BundleResource Include="Resources\Foody4.jpg" />
-    <BundleResource Include="Resources\Foody5.jpg" />
-    <BundleResource Include="Resources\Foody6.jpg" />
-    <BundleResource Include="Resources\Foody7.jpg" />
-    <BundleResource Include="Resources\Foody8.jpg" />
-    <BundleResource Include="Resources\Foody9.jpg" />
-    <BundleResource Include="Resources\Foody10.jpg" />
-    <BundleResource Include="Resources\Foody11.jpg" />
-    <BundleResource Include="Resources\Foody12.jpg" />
-    <BundleResource Include="Resources\Foody13.jpg" />
     <BundleResource Include="Resources\icon.png" />
     <BundleResource Include="Resources\iconEmail.png" />
     <BundleResource Include="Resources\iconPassword.png" />
     <BundleResource Include="Resources\iconUsername.png" />
-    <BundleResource Include="Resources\rainBus.jpg" />
+    <BundleResource Include="Resources\Foody2.png" />
+    <BundleResource Include="Resources\Foody3.png" />
+    <BundleResource Include="Resources\Foody4.png" />
+    <BundleResource Include="Resources\Foody5.png" />
+    <BundleResource Include="Resources\Foody6.png" />
+    <BundleResource Include="Resources\Foody7.png" />
+    <BundleResource Include="Resources\Foody8.png" />
+    <BundleResource Include="Resources\Foody9.png" />
+    <BundleResource Include="Resources\Foody10.png" />
+    <BundleResource Include="Resources\Foody11.png" />
+    <BundleResource Include="Resources\Foody13.png" />
+    <BundleResource Include="Resources\rainBus.png" />
+    <BundleResource Include="Resources\Foody1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -388,8 +388,50 @@
     <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\bin\Debug\FeedbackApp.dll.config">
       <PackagePath>FeedbackApp.dll.config</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Assets\icon.png">
+      <PackagePath>Assets\icon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Images\fblogin.png">
+      <PackagePath>Images\fblogin.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Images\Foody1.png">
+      <PackagePath>Images\Foody1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Images\Foody10.png">
+      <PackagePath>Images\Foody10.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Images\Foody11.png">
+      <PackagePath>Images\Foody11.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Images\Foody13.png">
+      <PackagePath>Images\Foody13.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Images\Foody2.png">
+      <PackagePath>Images\Foody2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Images\Foody3.png">
+      <PackagePath>Images\Foody3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Images\Foody4.png">
+      <PackagePath>Images\Foody4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Images\Foody5.png">
+      <PackagePath>Images\Foody5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Images\Foody6.png">
+      <PackagePath>Images\Foody6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Images\Foody7.png">
+      <PackagePath>Images\Foody7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Images\Foody8.png">
+      <PackagePath>Images\Foody8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Images\Foody9.png">
+      <PackagePath>Images\Foody9.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Images\rainBus.png">
+      <PackagePath>Images\rainBus.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -418,11 +460,17 @@
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\bin\x86\Debug\LoginNavigation.UWP.xr.xml">
       <PackagePath>LoginNavigation.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\background.jpg">
       <PackagePath>FeedbackApp\background.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\Resources\Flaty\rainBus.jpg">
+      <PackagePath>FeedbackApp\Resources\Flaty\rainBus.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>

@@ -9,7 +9,16 @@ namespace XFormsUI.Classes
 {
     public static class ImagePathResources
     {
-        public static readonly string BackgroundImagePath =Device.OnPlatform("rainBus.jpg", "rainBus.jpg", "rainBus.jpg"); 
+        //public static readonly string BackgroundImagePath =Device.OnPlatform("rainBus.jpg", "rainBus.jpg", "rainBus.jpg");
+
+        public static readonly string BackgroundImagePath = Device.OnPlatform("rainBus.png", "rainBus.png",
+            "ms-appx:///Images/rainBus.png");
+        public static readonly string FeedbackBackgroundImagePath= Device.OnPlatform("Foody9.png", "Foody9.png",
+           "ms-appx:///Images/Foody9.png");
+
+        //ImageURL	"ms-appx:///Images/Foody12.png"	string
+
+
     }
 
 

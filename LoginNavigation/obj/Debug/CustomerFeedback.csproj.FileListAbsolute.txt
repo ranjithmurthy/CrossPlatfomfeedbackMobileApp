@@ -1,6 +1,3 @@
-C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\bin\Debug\_View\Flaty.xaml
-C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\bin\Debug\_View\Flaty.xaml.cs
-C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\bin\Debug\obj\Debug\LoginNavigation._View.Flaty.xaml.g.cs
 C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\bin\Debug\FeedbackApp.dll.config
 C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\bin\Debug\FeedbackApp.dll
 C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\bin\Debug\FeedbackApp.pdb
@@ -21,13 +18,17 @@ C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\bin\Debug\Xamarin.Fo
 C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\bin\Debug\Xamarin.Forms.Xaml.xml
 C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\obj\Debug\CustomerFeedback.csproj.App.config
-C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\obj\Debug\CustomerFeedback.csprojResolveAssemblyReference.cache
 C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\obj\Debug\LoginNavigation._View.LoginPage.xaml.g.cs
 C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\obj\Debug\LoginNavigation._View.MainPage.xaml.g.cs
 C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\obj\Debug\LoginNavigation._View.SignUpPage.xaml.g.cs
 C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\obj\Debug\LoginNavigation._View.FeedbackFormPage.xaml.g.cs
 C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\obj\Debug\LoginNavigation._View.QuestionListViewPage.xaml.g.cs
 C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\obj\Debug\LoginNavigation._View.ThanksContent.xaml.g.cs
-C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\obj\Debug\LoginNavigation._View.Flaty.xaml.g.cs
 C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\obj\Debug\FeedbackApp.dll
 C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\obj\Debug\FeedbackApp.pdb
+C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\obj\Debug\FeedbackApp.dll.mdb
+C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\bin\Debug\FeedbackApp.dll.mdb
+C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\obj\Debug\FeedbackApp.dll.mdb
+C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\bin\Debug\FeedbackApp.dll.mdb
+C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\obj\Debug\FeedbackApp.dll.mdb
+C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\bin\Debug\FeedbackApp.dll.mdb

@@ -17,16 +17,12 @@ namespace LoginNavigation {
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Label LabelSurvey;
-        
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.ListView listView;
+        private global::LoginNavigation.Controls.CustomList listRecipies;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(MainPage));
-            LabelSurvey = this.FindByName<global::Xamarin.Forms.Label>("LabelSurvey");
-            listView = this.FindByName<global::Xamarin.Forms.ListView>("listView");
+            listRecipies = this.FindByName<global::LoginNavigation.Controls.CustomList>("listRecipies");
         }
     }
 }

@@ -26,12 +26,13 @@ namespace LoginNavigation
 
         private async void OnShowSurveyButtonClicked(object sender, EventArgs e)
         {
-            LabelSurvey.Text = "List of Events";
+           // LabelSurvey.Text = "List of Events";
 
             var serviceWrapper = new ServiceWrapper();
-            var surveryDatalist = await serviceWrapper.GetJsonData<List<SurveryData>>();
 
-            listView.ItemsSource = surveryDatalist;
+            List<SurveryData> surveryDatalist = await serviceWrapper.GetJsonData<List<SurveryData>>();
+
+            listRecipies.ItemsSource = surveryDatalist;
         }
 
         private async void OnSelectedItem(object sender, SelectedItemChangedEventArgs e)

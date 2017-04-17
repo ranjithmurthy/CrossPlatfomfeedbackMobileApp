@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-04-12T20:26:06.142</Modified>
+      <Modified>2017-04-17T17:09:56.301</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\bin\x86\Debug\LoginNavigation.UWP.exe">
       <PackagePath>entrypoint\LoginNavigation.UWP.exe</PackagePath>
-      <Modified>2017-04-12T20:26:00.197</Modified>
+      <Modified>2017-04-17T17:09:50.558</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ranjith\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -510,7 +510,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\bin\Debug\FeedbackApp.dll">
       <PackagePath>FeedbackApp.dll</PackagePath>
-      <Modified>2017-04-15T23:04:54.975</Modified>
+      <Modified>2017-04-17T17:09:46.400</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\bin\Debug\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -518,11 +518,67 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\bin\Debug\FeedbackApp.dll.config">
       <PackagePath>FeedbackApp.dll.config</PackagePath>
-      <Modified>2017-04-15T23:04:52.606</Modified>
+      <Modified>2017-04-17T17:09:45.061</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2017-02-04T22:45:50.733</Modified>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Assets\icon.png">
+      <PackagePath>Assets\icon.png</PackagePath>
+      <Modified>2017-04-15T15:15:56.423</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Images\fblogin.png">
+      <PackagePath>Images\fblogin.png</PackagePath>
+      <Modified>2017-04-16T15:44:17.818</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Images\Foody1.png">
+      <PackagePath>Images\Foody1.png</PackagePath>
+      <Modified>2017-04-16T16:24:13.469</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Images\Foody10.png">
+      <PackagePath>Images\Foody10.png</PackagePath>
+      <Modified>2017-04-16T15:52:58.695</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Images\Foody11.png">
+      <PackagePath>Images\Foody11.png</PackagePath>
+      <Modified>2017-04-16T15:50:31.916</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Images\Foody13.png">
+      <PackagePath>Images\Foody13.png</PackagePath>
+      <Modified>2017-04-16T15:52:07.711</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Images\Foody2.png">
+      <PackagePath>Images\Foody2.png</PackagePath>
+      <Modified>2017-04-16T15:52:16.060</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Images\Foody3.png">
+      <PackagePath>Images\Foody3.png</PackagePath>
+      <Modified>2017-04-16T15:51:59.270</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Images\Foody4.png">
+      <PackagePath>Images\Foody4.png</PackagePath>
+      <Modified>2017-04-16T15:52:21.918</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Images\Foody5.png">
+      <PackagePath>Images\Foody5.png</PackagePath>
+      <Modified>2017-04-16T15:52:50.740</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Images\Foody6.png">
+      <PackagePath>Images\Foody6.png</PackagePath>
+      <Modified>2017-04-16T15:52:28.201</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Images\Foody7.png">
+      <PackagePath>Images\Foody7.png</PackagePath>
+      <Modified>2017-04-16T15:51:34.272</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Images\Foody8.png">
+      <PackagePath>Images\Foody8.png</PackagePath>
+      <Modified>2017-04-16T15:53:04.837</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Images\Foody9.png">
+      <PackagePath>Images\Foody9.png</PackagePath>
+      <Modified>2017-04-16T15:52:43.502</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Images\rainBus.png">
+      <PackagePath>Images\rainBus.png</PackagePath>
+      <Modified>2017-04-16T15:57:36.106</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -558,6 +614,10 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-02-04T22:45:50.428</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2017-02-04T22:45:50.733</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\bin\x86\Debug\LoginNavigation.UWP.xr.xml">
       <PackagePath>LoginNavigation.UWP.xr.xml</PackagePath>
       <Modified>2017-03-19T13:49:25.324</Modified>
@@ -565,6 +625,10 @@
     <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\background.jpg">
       <PackagePath>FeedbackApp\background.jpg</PackagePath>
       <Modified>2017-03-23T21:51:31.111</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\Resources\Flaty\rainBus.jpg">
+      <PackagePath>FeedbackApp\Resources\Flaty\rainBus.jpg</PackagePath>
+      <Modified>2017-04-16T10:23:28.958</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -581,11 +645,11 @@
     <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-04-12T20:26:05.017</Modified>
+      <Modified>2017-04-17T17:09:55.469</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\bin\x86\Debug\Core\LoginNavigation.UWP.exe">
       <PackagePath>LoginNavigation.UWP.exe</PackagePath>
-      <Modified>2017-04-12T20:26:06.127</Modified>
+      <Modified>2017-04-17T17:09:56.290</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

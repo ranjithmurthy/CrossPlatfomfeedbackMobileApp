@@ -111,25 +111,21 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\fblogin.png" />
-    <Content Include="Assets\Foody1.jpg" />
-    <Content Include="Assets\Foody10.jpg" />
-    <Content Include="Assets\Foody11.jpg" />
-    <Content Include="Assets\Foody12.jpg" />
-    <Content Include="Assets\Foody13.jpg" />
-    <Content Include="Assets\Foody2.jpg" />
-    <Content Include="Assets\Foody3.jpg" />
-    <Content Include="Assets\Foody4.jpg" />
-    <Content Include="Assets\Foody5.jpg" />
-    <Content Include="Assets\Foody6.jpg" />
-    <Content Include="Assets\Foody7.jpg" />
-    <Content Include="Assets\Foody8.jpg" />
-    <Content Include="Assets\Foody9.jpg" />
     <Content Include="Assets\icon.png" />
-    <Content Include="Assets\iconEmail.png" />
-    <Content Include="Assets\iconPassword.png" />
-    <Content Include="Assets\iconUsername.png" />
-    <Content Include="Assets\rainBus.jpg" />
+    <Content Include="Images\fblogin.png" />
+    <Content Include="Images\Foody1.png" />
+    <Content Include="Images\Foody10.png" />
+    <Content Include="Images\Foody11.png" />
+    <Content Include="Images\Foody13.png" />
+    <Content Include="Images\Foody2.png" />
+    <Content Include="Images\Foody3.png" />
+    <Content Include="Images\Foody4.png" />
+    <Content Include="Images\Foody5.png" />
+    <Content Include="Images\Foody6.png" />
+    <Content Include="Images\Foody7.png" />
+    <Content Include="Images\Foody8.png" />
+    <Content Include="Images\Foody9.png" />
+    <Content Include="Images\rainBus.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -155,6 +151,7 @@
       <Name>CustomerFeedback</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

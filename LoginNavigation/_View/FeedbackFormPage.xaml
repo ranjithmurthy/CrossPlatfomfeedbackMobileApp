@@ -3,70 +3,169 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:controls="clr-namespace:XamarinFormsBindablePicker.Controls;assembly=FeedbackApp"
              xmlns:local="clr-namespace:LoginNavigation._View;assembly=FeedbackApp"
+             xmlns:classes1="clr-namespace:XFormsUI.Classes;assembly=FeedbackApp"
              x:Class="LoginNavigation._View.FeedbackFormPage"
-             Title="Feedback Form">
+             Title="Feedback Form"
+             BackgroundImage="{x:Static classes1:ImagePathResources.BackgroundImagePath}">
+  
+  <!--BackgroundImage="{x:Static classes1:ImagePathResources.BackgroundImagePath}"-->
+  <ContentPage.ToolbarItems>
+    <ToolbarItem Text="Logout"
+                 Clicked="OnLogoutButtonClicked" />
+  </ContentPage.ToolbarItems>
+  
   <ContentPage.Content>
-    <StackLayout VerticalOptions="Center"
-                 HorizontalOptions="Center">
-      <StackLayout Margin="50">
+    
+    
+    
+    <StackLayout>
+ 
         <StackLayout Padding="1">
-          <Label Text="Description:" />
-          <Label Text="{Binding Path=Description}"
-                 FontSize="14"
-                 VerticalTextAlignment="Center"
-                 HorizontalOptions="Fill" />
+          
+          <Grid Padding="0">
+            <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.5*" />
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="0.5*" />
+          </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+              <RowDefinition Height="Auto" />
+              <RowDefinition Height="Auto" />
+              <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            
+            <Label   TextColor="White" 
+                     Grid.Row="0" 
+                    Grid.Column="1" Text="Description" />
+            
+            <Label   TextColor="White" Grid.Row="0" Grid.Column="2" Text="{Binding Path=Description}" />
+            
+            <Label  TextColor="White" 
+                    Grid.Column="1"
+                   Grid.Row="1"
+                   Text="Question" />
+            <Label  TextColor="White" Grid.Row="1"
+                   Grid.Column="2"
+                   Text="Rating"
+                   />
+          <BoxView 
+                   HorizontalOptions="Fill"
+                   BackgroundColor="Transparent"
+                   VerticalOptions="End"
+                   Grid.Row="2"
+                   Grid.RowSpan="3"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="4" />
+        </Grid>
+
+      
         </StackLayout>
-        <ListView x:Name="PersonList"
-                  ItemsSource="{Binding QuestionHolders}">
-          <ListView.ItemTemplate >
+      
+        <StackLayout >
+          <ListView x:Name="PersonList"
+                  ItemsSource="{Binding QuestionHolders}"
+                 
+                  BackgroundColor="Transparent">
+          
+          <ListView.ItemTemplate>
             <DataTemplate >
-              <ViewCell>
-                <StackLayout>
-                  <StackLayout Orientation="Vertical">
-                    <StackLayout Orientation="Horizontal">
-                      <Label Text="{Binding Path=Question}"
-                             FontSize="14"
-                             VerticalTextAlignment="Center"
-                             HorizontalOptions="Fill" />
-                  <controls:BindablePicker ItemsSource="{Binding Path=BindingContext.PickerItems,
+           
+                <ViewCell>
+                  <Grid >
+                    
+                  <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.5*" />
+                    <ColumnDefinition Width="2*" />
+                    <ColumnDefinition Width="2*" />
+                    <ColumnDefinition Width="0.5*" />
+                  </Grid.ColumnDefinitions>
+                  <Grid.RowDefinitions>
+                    
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                  </Grid.RowDefinitions>
+                    
+                  <!--<Image x:Name="imgFoodItem"
+                         Source="{Binding ImageURL}"
+                         Grid.Row="0"
+                       
+                         HorizontalOptions="Fill"
+                         VerticalOptions="Fill"
+                        />-->
+                    
+                  
+                    
+                  <Label  TextColor="White" Grid.Column="1"
+                          Text="{Binding Path=Question}"
+                          FontSize="Medium" 
+                          VerticalTextAlignment="Center"
+                          HorizontalOptions="Fill" />
+                    
+                  <controls:BindablePicker Grid.Column="2" ItemsSource="{Binding Path=BindingContext.PickerItems,
                                           Source={x:Reference PersonList} }"
-                                               SelectedItem="{Binding AnswerText,  Mode=TwoWay}"
-                                     HorizontalOptions="FillAndExpand" />
-                    </StackLayout>
-                  </StackLayout>
-                </StackLayout>
+                                           SelectedItem="{Binding AnswerText,  Mode=TwoWay}"
+                                           HorizontalOptions="Fill"
+                                           VerticalOptions="Fill"
+                                         
+                                         />
+                </Grid>
               </ViewCell>
             </DataTemplate>
           </ListView.ItemTemplate>
           <ListView.Footer>
+            
+            
             <StackLayout>
-              <Label Text="UserFeedback/Suggestion:"
+              
+              
+              <Grid>
+                <Grid.ColumnDefinitions>
+                  <ColumnDefinition Width="Auto" />
+                
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                  <RowDefinition Height="1*" />
+                  <RowDefinition Height="4*" />
+                </Grid.RowDefinitions>
+                <Label  TextColor="White"
+                        Grid.Row="0"
+                     Text="UserFeedback/Suggestion:"
                      FontSize="14" />
-              <StackLayout BackgroundColor="Black"
-                           Padding="1">
-                <Editor Text="{Binding UserFeedbackText}"
-                        FontSize="14" >
-                  <Editor.BackgroundColor>
+                <Editor  TextColor="White" Grid.ColumnSpan="2"
+                        Grid.Row="1"
+                        Text="{Binding UserFeedbackText}"
+                        FontSize="14"
+                        HeightRequest="{x:Static classes1:DoubleResources.SignUpButtonHeight}">
+                  <!--<Editor.BackgroundColor>
                     
                     <OnPlatform x:TypeArguments="Color"
                                 iOS="#a4eaff"
                                 Android="#2c3e50"
                                 WinPhone="#2c3e50" />
-                  </Editor.BackgroundColor>
+                  </Editor.BackgroundColor>-->
                   
                   
                   
                 </Editor>
-                        
-                       
-               
-              </StackLayout>
+              </Grid>
+              <!--<Button Text="Sign as Guest"
+                      Clicked="OnLoginGuestButtonClicked"
+                      BackgroundColor="#1FBED6"
+                      HorizontalOptions="Fill"
+                      TextColor="White"
+                      HeightRequest="{x:Static classes1:DoubleResources.SignUpButtonHeight}" />-->
+              
               <Button Text="Submit"
-                      Clicked="OnSubmitButtonClickedAsync" />
+                      TextColor="White"
+                      BackgroundColor="#1FBED6"
+                      Clicked="OnSubmitButtonClickedAsync"
+                      HeightRequest="{x:Static classes1:DoubleResources.SignUpButtonHeight}" />
             </StackLayout>
           </ListView.Footer>
         </ListView>
-      </StackLayout>
+        </StackLayout>
+    
       <Label Text="Copyright Feedback.com" />
     </StackLayout>
   </ContentPage.Content>

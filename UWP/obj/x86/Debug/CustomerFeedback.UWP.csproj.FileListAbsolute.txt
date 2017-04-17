@@ -131,6 +131,7 @@ C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\bin\x86\Debug\Newtonsoft.Json.dl
 C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\bin\x86\Debug\FeedbackApp.pdb
 C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\bin\x86\Debug\FeedbackApp.dll.config
 C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\obj\x86\Debug\CustomerFeedback.UWP.csprojResolveAssemblyReference.cache
 C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\obj\x86\Debug\App.g.i.cs
 C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\obj\x86\Debug\App.g.cs
 C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\obj\x86\Debug\MainPage.g.i.cs
@@ -220,4 +221,3 @@ C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\obj\x86\Debug\qualifiers.txt.int
 C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\obj\x86\Debug\Xamarin.Forms.Platform.UAP.pri.xml
 C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\obj\x86\Debug\ProjectArchitectures.txt
-C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\obj\x86\Debug\CustomerFeedback.UWP.csprojResolveAssemblyReference.cache

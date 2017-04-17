@@ -1,5 +1,3 @@
-C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\bin\iPhoneSimulator\Debug\_View\Flaty.xaml
-C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\bin\iPhoneSimulator\Debug\_View\Flaty.xaml.cs
 C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\bin\iPhoneSimulator\Debug\LoginNavigationiOS.exe.config
 C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\bin\iPhoneSimulator\Debug\LoginNavigationiOS.exe
 C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\bin\iPhoneSimulator\Debug\LoginNavigationiOS.pdb
@@ -81,6 +79,19 @@ C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\optimi
 C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\optimized\iconEmail.png
 C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\optimized\iconPassword.png
 C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\optimized\iconUsername.png
+C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\optimized\Foody2.png
+C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\optimized\Foody3.png
+C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\optimized\Foody4.png
+C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\optimized\Foody5.png
+C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\optimized\Foody6.png
+C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\optimized\Foody7.png
+C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\optimized\Foody8.png
+C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\optimized\Foody9.png
+C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\optimized\Foody10.png
+C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\optimized\Foody11.png
+C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\optimized\Foody13.png
+C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\optimized\rainBus.png
+C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\optimized\Foody1.png
 C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\optimized\Entitlements.plist
 C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\optimized\
 C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\CustomerFeedback.iOS.csprojResolveAssemblyReference.cache
