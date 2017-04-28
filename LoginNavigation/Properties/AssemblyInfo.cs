@@ -1,14 +1,15 @@
-﻿using System.Reflection;
+﻿using System.Resources;
+using System.Reflection;
 
 // Information about this assembly is defined by the following attributes.
 // Change them to the values specific to your project.
 
-[assembly: AssemblyTitle("LoginNavigation")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("The Canteen")]
+[assembly: AssemblyDescription("canteen  feedback management system")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Ranjith Murthy")]
 [assembly: AssemblyProduct("")]
-[assembly: AssemblyCopyright("davidbritch")]
+[assembly: AssemblyCopyright("Ranjith Murthy")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -17,6 +18,7 @@
 // and "{Major}.{Minor}.{Build}.*" will update just the revision.
 
 [assembly: AssemblyVersion("1.0.*")]
+[assembly: NeutralResourcesLanguage("en-DE")]
 
 // The following attributes are used to specify the signing key for the assembly,
 // if desired. See the Mono documentation for more information about signing.

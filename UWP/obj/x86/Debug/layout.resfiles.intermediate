@@ -1,4 +1,17 @@
 WinMetadata\Windows.winmd
+Assets\fblogin.png
+Assets\Foody1.png
+Assets\Foody10.png
+Assets\Foody11.png
+Assets\Foody13.png
+Assets\Foody2.png
+Assets\Foody3.png
+Assets\Foody4.png
+Assets\Foody5.png
+Assets\Foody6.png
+Assets\Foody7.png
+Assets\Foody8.png
+Assets\Foody9.png
 Assets\icon.png
 Assets\LockScreenLogo.scale-200.png
 Assets\SplashScreen.scale-200.png
@@ -7,7 +20,7 @@ Assets\Square44x44Logo.scale-200.png
 Assets\Square44x44Logo.targetsize-24_altform-unplated.png
 Assets\StoreLogo.png
 Assets\Wide310x150Logo.scale-200.png
-LoginNavigation.UWP.xr.xml
+CanteenManagementSystem.xr.xml
 Images\fblogin.png
 Images\Foody1.png
 Images\Foody10.png
@@ -21,5 +34,8 @@ Images\Foody6.png
 Images\Foody7.png
 Images\Foody8.png
 Images\Foody9.png
+Images\iconEmail.png
+Images\iconPassword.png
+Images\iconUsername.png
 Images\rainBus.png
 Properties\Default.rd.xml

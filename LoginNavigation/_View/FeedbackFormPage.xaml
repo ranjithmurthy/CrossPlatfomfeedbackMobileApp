@@ -36,10 +36,12 @@
             </Grid.RowDefinitions>
             
             <Label   TextColor="White" 
-                     Grid.Row="0" 
-                    Grid.Column="1" Text="Description" />
+                     Grid.Row="0"
+                   FontSize="Large"
+                   Grid.Column="1" Text="Description" />
             
-            <Label   TextColor="White" Grid.Row="0" Grid.Column="2" Text="{Binding Path=Description}" />
+          <Label    FontSize="Large" 
+                    TextColor="White" Grid.Row="0" Grid.Column="2" Text="{Binding Path=Description}" />
             
             <Label  TextColor="White" 
                     Grid.Column="1"
@@ -51,8 +53,7 @@
                    />
           <BoxView 
                    HorizontalOptions="Fill"
-                   BackgroundColor="Transparent"
-                   VerticalOptions="End"
+                   BackgroundColor="Transparent" VerticalOptions="End"
                    Grid.Row="2"
                    Grid.RowSpan="3"
                    Grid.Column="0"
@@ -107,6 +108,7 @@
                                            SelectedItem="{Binding AnswerText,  Mode=TwoWay}"
                                            HorizontalOptions="Fill"
                                            VerticalOptions="Fill"
+                                           TextColor="Black"
                                          
                                          />
                 </Grid>
@@ -132,11 +134,14 @@
                         Grid.Row="0"
                      Text="UserFeedback/Suggestion:"
                      FontSize="14" />
-                <Editor  TextColor="White" Grid.ColumnSpan="2"
+                <Editor  Grid.ColumnSpan="2"
                         Grid.Row="1"
                         Text="{Binding UserFeedbackText}"
                         FontSize="14"
-                        HeightRequest="{x:Static classes1:DoubleResources.SignUpButtonHeight}">
+                         TextColor="Default"
+                         HeightRequest="{x:Static classes1:DoubleResources.SignUpButtonHeight}"> 
+                  
+                  
                   <!--<Editor.BackgroundColor>
                     
                     <OnPlatform x:TypeArguments="Color"

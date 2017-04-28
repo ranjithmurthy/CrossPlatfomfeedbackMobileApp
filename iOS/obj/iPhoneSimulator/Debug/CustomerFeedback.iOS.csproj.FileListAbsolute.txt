@@ -1,6 +1,3 @@
-C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\bin\iPhoneSimulator\Debug\LoginNavigationiOS.exe.config
-C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\bin\iPhoneSimulator\Debug\LoginNavigationiOS.exe
-C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\bin\iPhoneSimulator\Debug\LoginNavigationiOS.pdb
 C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\bin\iPhoneSimulator\Debug\FeedbackApp.dll
 C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.dll
 C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\bin\iPhoneSimulator\Debug\RestSharp.dll
@@ -95,7 +92,10 @@ C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\optimi
 C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\optimized\Entitlements.plist
 C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\optimized\
 C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\CustomerFeedback.iOS.csprojResolveAssemblyReference.cache
-C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\LoginNavigationiOS.exe
-C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\LoginNavigationiOS.pdb
-C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\LoginNavigationiOS.exe.mdb
-C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\bin\iPhoneSimulator\Debug\LoginNavigationiOS.exe.mdb
+C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\bin\iPhoneSimulator\Debug\CanteenManagementSystem.exe.config
+C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\bin\iPhoneSimulator\Debug\CanteenManagementSystem.exe
+C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\bin\iPhoneSimulator\Debug\CanteenManagementSystem.pdb
+C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\CanteenManagementSystem.exe
+C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\CanteenManagementSystem.pdb
+C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\obj\iPhoneSimulator\Debug\CanteenManagementSystem.exe.mdb
+C:\Users\ranjith\Documents\GitHub\LoginFlow\iOS\bin\iPhoneSimulator\Debug\CanteenManagementSystem.exe.mdb

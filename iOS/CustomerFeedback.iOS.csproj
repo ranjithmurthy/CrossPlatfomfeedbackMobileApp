@@ -6,9 +6,9 @@
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <ProjectGuid>{F0AA2B49-1A31-4495-AACE-0DD5AAA80139}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>LoginNavigation.iOS</RootNamespace>
+    <RootNamespace>CanteenManagementSystem</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>LoginNavigationiOS</AssemblyName>
+    <AssemblyName>CanteenManagementSystem</AssemblyName>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
   </PropertyGroup>

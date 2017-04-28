@@ -26,6 +26,11 @@ C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\obj\Debug\LoginNavig
 C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\obj\Debug\LoginNavigation._View.ThanksContent.xaml.g.cs
 C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\obj\Debug\FeedbackApp.dll
 C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\obj\Debug\FeedbackApp.pdb
+C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\obj\Debug\CustomerFeedback.csprojResolveAssemblyReference.cache
+C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\obj\Debug\FeedbackApp.dll.mdb
+C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\bin\Debug\FeedbackApp.dll.mdb
+C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\obj\Debug\FeedbackApp.dll.mdb
+C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\bin\Debug\FeedbackApp.dll.mdb
 C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\obj\Debug\FeedbackApp.dll.mdb
 C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\bin\Debug\FeedbackApp.dll.mdb
 C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\obj\Debug\FeedbackApp.dll.mdb

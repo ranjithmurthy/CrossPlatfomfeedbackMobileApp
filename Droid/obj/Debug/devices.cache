@@ -2,6 +2,10 @@
 <Devices>
   <Device id="192.168.90.101:5555">
     <ResultingAbi>x86</ResultingAbi>
-    <SdkVersion>19</SdkVersion>
+    <SdkVersion>17</SdkVersion>
+  </Device>
+  <Device id="192.168.178.30:5555">
+    <ResultingAbi>armeabi-v7a</ResultingAbi>
+    <SdkVersion>17</SdkVersion>
   </Device>
 </Devices>

@@ -16,6 +16,17 @@ namespace XFormsUI.Classes
         public static readonly string FeedbackBackgroundImagePath= Device.OnPlatform("Foody9.png", "Foody9.png",
            "ms-appx:///Images/Foody9.png");
 
+        public static readonly string  colourBgCode = Device.OnPlatform("Foody9.png", "Foody9.png", "ms-appx:///Images/Foody9.png");
+
+
+
+        public static readonly string UserNamePng = Device.OnPlatform("iconUsername.png", "iconUsername.png", "ms-appx:///Images/iconUsername.png");
+
+        public static readonly string PasswordPng = Device.OnPlatform("iconPassword.png", "iconPassword.png", "ms-appx:///Images/iconPassword.png");
+
+
+        public static readonly string FacebookPng = Device.OnPlatform("fblogin.png", "fblogin.png", "ms-appx:///Images/fblogin.png");
+
         //ImageURL	"ms-appx:///Images/Foody12.png"	string
 
 

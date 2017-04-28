@@ -1,12 +1,12 @@
 C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\bin\x86\Debug\App.xbf
 C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\bin\x86\Debug\MainPage.xbf
-C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\bin\x86\Debug\LoginNavigation.UWP.xr.xml
-C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\bin\x86\Debug\LoginNavigation.UWP.exe
-C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\bin\x86\Debug\LoginNavigation.UWP.pdb
+C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\bin\x86\Debug\CanteenManagementSystem.xr.xml
+C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\bin\x86\Debug\CanteenManagementSystem.exe
+C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\bin\x86\Debug\CanteenManagementSystem.pdb
 C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\bin\x86\Debug\resources.pri
 C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\bin\x86\Debug\AppxManifest.xml
 C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\bin\x86\Debug\Core\AppxManifest.xml
-C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\bin\x86\Debug\Core\LoginNavigation.UWP.exe
+C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\bin\x86\Debug\Core\CanteenManagementSystem.exe
 C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\bin\x86\Debug\CustomerFeedback.UWP.build.appxrecipe
 C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\bin\x86\Debug\Microsoft.CSharp.dll
 C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\bin\x86\Debug\System.ComponentModel.DataAnnotations.dll
@@ -142,8 +142,8 @@ C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\obj\x86\Debug\MainPage.xaml
 C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\obj\x86\Debug\App.xbf
 C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\obj\x86\Debug\MainPage.xbf
 C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\obj\x86\Debug\XamlSaveStateFile.xml
-C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\obj\x86\Debug\LoginNavigation.UWP.exe
-C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\obj\x86\Debug\LoginNavigation.UWP.pdb
+C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\obj\x86\Debug\CanteenManagementSystem.exe
+C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\obj\x86\Debug\CanteenManagementSystem.pdb
 C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\obj\x86\Debug\ResourceHandlingTask.state
 C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\obj\x86\Debug\FxResources.Microsoft.CSharp.SR.resw
 C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\obj\x86\Debug\FxResources.Microsoft.VisualBasic.SR.resw

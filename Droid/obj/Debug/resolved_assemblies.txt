@@ -26,6 +26,7 @@ C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\obj\Debug\android\assets\Syste
 C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\obj\Debug\android\assets\mscorlib.dll
 C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\obj\Debug\android\assets\System.Runtime.dll
 C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\obj\Debug\android\assets\System.ComponentModel.Composition.dll
+C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\obj\Debug\android\assets\System.Resources.ResourceManager.dll
 C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\obj\Debug\android\assets\System.Diagnostics.Debug.dll
 C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\obj\Debug\android\assets\System.ObjectModel.dll
 C:\Users\ranjith\Documents\GitHub\LoginFlow\Droid\obj\Debug\android\assets\System.Threading.Tasks.dll

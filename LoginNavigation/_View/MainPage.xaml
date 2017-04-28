@@ -11,6 +11,8 @@
                  Clicked="OnLogoutButtonClicked" />
   </ContentPage.ToolbarItems>
   <StackLayout Padding="0">
+    
+    
     <Button Text="ShowSurvey"
             Clicked="OnShowSurveyButtonClicked"></Button>
     <Grid VerticalOptions="FillAndExpand">

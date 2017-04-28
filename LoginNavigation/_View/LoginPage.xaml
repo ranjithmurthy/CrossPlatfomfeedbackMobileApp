@@ -35,11 +35,11 @@
                  HorizontalOptions="Center"
                  VerticalOptions="Center"
                  Grid.Row="0"
-                 TextColor="White">
+                 TextColor="Default">
             <Label.FontFamily>
               <OnPlatform x:TypeArguments="x:String">
                 <OnPlatform.iOS>MarkerFelt-Thin</OnPlatform.iOS>
-                <OnPlatform.Android></OnPlatform.Android>
+              <OnPlatform.Android></OnPlatform.Android>
                 <OnPlatform.WinPhone></OnPlatform.WinPhone>
               </OnPlatform>
             </Label.FontFamily>
@@ -55,8 +55,8 @@
               <ColumnDefinition Width="Auto" />
               <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
-            <Image Source="iconUsername.png"
-                   HeightRequest="30"
+          <Image Source="{x:Static classes1:ImagePathResources.UserNamePng}"
+                 HeightRequest="30"
                    VerticalOptions="Center"
                    Grid.Row="0"
                    Grid.Column="0" />
@@ -85,8 +85,8 @@
               <ColumnDefinition Width="Auto" />
               <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
-            <Image Source="iconPassword.png"
-                   HeightRequest="30"
+          <Image Source="{x:Static classes1:ImagePathResources.PasswordPng}"
+                 HeightRequest="30"
                    VerticalOptions="Center" />
             <Entry Text="{Binding Password}"
                    Placeholder="Password"
@@ -117,8 +117,8 @@
                     HorizontalOptions="Fill"
                     TextColor="White"
                     HeightRequest="{x:Static classes1:DoubleResources.SignUpButtonHeight}" />
-            <Image Source="fblogin.png"
-                   HorizontalOptions="Fill"
+          <Image Source="{x:Static classes1:ImagePathResources.FacebookPng}"
+                 HorizontalOptions="Fill"
                    HeightRequest="{x:Static classes1:DoubleResources.FBButtonHeight}" />
             <StackLayout Spacing="5">
               <Label Text="{Binding DisplayMessage}" />

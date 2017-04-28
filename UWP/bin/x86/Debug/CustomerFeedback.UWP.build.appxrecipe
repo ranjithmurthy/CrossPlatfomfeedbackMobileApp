@@ -22,8 +22,8 @@
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\bin\x86\Debug\LoginNavigation.UWP.exe">
-      <PackagePath>entrypoint\LoginNavigation.UWP.exe</PackagePath>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\bin\x86\Debug\CanteenManagementSystem.exe">
+      <PackagePath>entrypoint\CanteenManagementSystem.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ranjith\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -388,6 +388,45 @@
     <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\bin\Debug\FeedbackApp.dll.config">
       <PackagePath>FeedbackApp.dll.config</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Assets\fblogin.png">
+      <PackagePath>Assets\fblogin.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Assets\Foody1.png">
+      <PackagePath>Assets\Foody1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Assets\Foody10.png">
+      <PackagePath>Assets\Foody10.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Assets\Foody11.png">
+      <PackagePath>Assets\Foody11.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Assets\Foody13.png">
+      <PackagePath>Assets\Foody13.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Assets\Foody2.png">
+      <PackagePath>Assets\Foody2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Assets\Foody3.png">
+      <PackagePath>Assets\Foody3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Assets\Foody4.png">
+      <PackagePath>Assets\Foody4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Assets\Foody5.png">
+      <PackagePath>Assets\Foody5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Assets\Foody6.png">
+      <PackagePath>Assets\Foody6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Assets\Foody7.png">
+      <PackagePath>Assets\Foody7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Assets\Foody8.png">
+      <PackagePath>Assets\Foody8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Assets\Foody9.png">
+      <PackagePath>Assets\Foody9.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Assets\icon.png">
       <PackagePath>Assets\icon.png</PackagePath>
     </AppxPackagedFile>
@@ -430,6 +469,15 @@
     <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Images\Foody9.png">
       <PackagePath>Images\Foody9.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Images\iconEmail.png">
+      <PackagePath>Images\iconEmail.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Images\iconPassword.png">
+      <PackagePath>Images\iconPassword.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Images\iconUsername.png">
+      <PackagePath>Images\iconUsername.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Images\rainBus.png">
       <PackagePath>Images\rainBus.png</PackagePath>
     </AppxPackagedFile>
@@ -463,8 +511,8 @@
     <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\bin\x86\Debug\LoginNavigation.UWP.xr.xml">
-      <PackagePath>LoginNavigation.UWP.xr.xml</PackagePath>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\bin\x86\Debug\CanteenManagementSystem.xr.xml">
+      <PackagePath>CanteenManagementSystem.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\LoginNavigation\background.jpg">
       <PackagePath>FeedbackApp\background.jpg</PackagePath>
@@ -485,8 +533,8 @@
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\bin\x86\Debug\Core\LoginNavigation.UWP.exe">
-      <PackagePath>LoginNavigation.UWP.exe</PackagePath>
+    <AppxPackagedFile Include="C:\Users\ranjith\Documents\GitHub\LoginFlow\UWP\bin\x86\Debug\Core\CanteenManagementSystem.exe">
+      <PackagePath>CanteenManagementSystem.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
